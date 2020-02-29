@@ -4,7 +4,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://localhost/ontologies/2019/1/10/automobile>.<http://localhost/ontologies/2019/1/10/automobile> rdf:type owl:Ontology .
+@base <http://localhost/ontologies/2019/1/10/automobile> .
+
+<http://localhost/ontologies/2019/1/10/automobile> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
